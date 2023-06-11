@@ -26,6 +26,7 @@ def main():
         
         # Menampilkan grafik boxplot
         st.subheader("Boxplot")
+        st.write('note : jika muncul error didapatkan bahwa data tidak bisa direalisaikan dalam bentuk boxplot')
         fig, ax = plt.subplots()
         ax.boxplot(df[column])
         st.pyplot(fig)
