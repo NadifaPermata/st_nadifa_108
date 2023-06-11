@@ -6,7 +6,7 @@ def main():
     st.title("Aplikasi Statistika Deskriptif")
     
     # Mengambil input dataset dari pengguna
-    uploaded_file = st.file_uploader("Unggah file CSV dengan catatan tanpa judul langsung data", type="csv")
+    uploaded_file = st.file_uploader("Unggah file CSV", type="csv")
     
     if uploaded_file is not None:
         # Membaca dataset dari file CSV
